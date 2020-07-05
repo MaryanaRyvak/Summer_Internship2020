@@ -1,3 +1,5 @@
+#Повернути значення кварталу для введеного місяця
+
 def quarter month
   result= case month.to_i
           when 1..3 then "First quarter"
