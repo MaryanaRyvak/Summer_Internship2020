@@ -90,5 +90,3 @@ class Calculator
   end
 end
 
-#puts Calculator.new.encode "ruby",10
-#puts Calculator.new.decode "beli",10
