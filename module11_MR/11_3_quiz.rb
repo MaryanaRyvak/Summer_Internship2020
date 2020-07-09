@@ -53,12 +53,12 @@ class Quiz
   # метод генерує у консоль загальну аналітику пройденого тесту
   def generate_result
     puts ""
-    #puts "Ви вказали #{ (count_result * 100).ceil }% усіх правильних відповідей."
+    puts "Ви вказали #{ (count_result * 100).ceil }% усіх правильних відповідей."
 
     @questions.each_with_index { |question, index|
       question.generate_result index
     }
 
-    puts "Ви вказали #{ (count_result * 100).ceil }% усіх правильних відповідей."
+    #puts "Ви вказали #{ (count_result * 100).ceil }% усіх правильних відповідей."
   end
 end
